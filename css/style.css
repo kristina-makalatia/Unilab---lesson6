@@ -1,0 +1,92 @@
+body {
+	height: 1800px;
+	padding-top: 83px;
+}
+/*Base classes*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.d-inline-block {
+	display: inline-block;
+}
+/*Header*/
+.logo img {
+	height: 80px;
+}
+.logo {
+	vertical-align: middle;
+}
+.navigation {
+	vertical-align: middle;
+}
+.header-wraper {
+	background-color: green;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+/*Start new section*/
+.box-wraper {
+	height: 600px;
+	width: 600px;
+	background-color: yellow;
+	position: relative;
+}
+.box:first-child {
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	z-index: 5;
+}
+.box:last-child {
+	height: 300px;
+	width: 300px;
+	background-color: pink;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	z-index: 6;
+}
+.text-box {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.image-wraper {
+	position: relative;
+	width: 475px;
+}
+.image-text {
+	position: absolute;
+	top:50px;
+	right: 0;
+	color:red;
+}
+/*.image-wraper img {
+	width: 100%;
+}*/
+.image-absolute {
+	position: absolute;
+	top:50px;
+	left:0;
+	height: 80px;
+}
+
+/*Blue-bg section*/
+.blue-bg{
+	background-color: blue;
+	padding: 50px 0;
+}
+.white-box {
+	background-color: #fff;
+	width: 570px;
+	height: 320px;
+}
